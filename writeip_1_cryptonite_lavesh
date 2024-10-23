@@ -1,0 +1,29 @@
+(HELLO)
+ In the first task we were given a command to just copy paste into the terminal
+In the second task we were told about the difference between a command and arguments
+basically the first keyword is the command and all the other words following it are the arguments.
+(PONDERING PATHS)
+we just had to do ‘/pwn’ and got the flag
+we had the executable file inside another directory so we again had a basic comman ‘/challenge/run’ and got the flag
+we put  cd /challenge
+we put ./run
+Here we learned the difference between relative and absolute paths
+(comprehending commands)
+cat is most often used for reading out files
+Sometimes, the files that we might cat out are too big we use the grep command to search for the contents we need.
+For listing the files win all the directories provided yo it as arguments we use ls command at linux.
+By using the Touch command we can make a new blank file.
+by using rm command we can remove the files also.
+by using mkdir command we can make a new directory also.
+we can use ln command to link the file and also the original file path comes before the link path in the command
+(digesting documentation)
+we can do man command to get a list of possible arguments with their description
+some programs don't have a man page, so we can use help command to get a list of possible arguments with their description.
+(file globbing)
+we can use* in any argument then it  replace that argument with any files that match the pattern
+‘?’ is similar to * but it only matches that one character in that specified place
+[] is like ? That matches a possible subsets of potential characters within the set
+PIPPING
+Piping in Linux is a way to connect the output of one command directly into the input of another command.
+‘>’ can be used to redirect the stdout to other files
+‘>>’ can be used to append the stdout to other files
